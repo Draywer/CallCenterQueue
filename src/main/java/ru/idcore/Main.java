@@ -6,8 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int maxCalls = 10;
-        int timerInCall = 500;
+        int maxCalls = 25;
+        int timerInCall = 1000;
         int countOperators = 5;
         CallCenter callCenter = new CallCenter(maxCalls, timerInCall, countOperators);
 
